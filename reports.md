@@ -37,14 +37,14 @@
             * Load time: 1.69 s
             * Faster than: 76 %
         * San Jose #1:
-            * Load time: 1.31 s
-            * Faster than: 83 %
+            * Load time: 767 s
+            * Faster than: 93 %
         * San Jose #2:
-            * Load time: 991 ms
-            * Faster than: 89 %
+            * Load time: 745 ms
+            * Faster than: 93 %
         * San Jose #3:
-            * Load time: 990 ms
-            * Faster than: 89 %
+            * Load time: 759 ms
+            * Faster than: 93 %
         * Melbourne #1:
             * Load time: 3.42 s
             * Faster than: 47 %
