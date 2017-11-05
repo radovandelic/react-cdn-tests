@@ -173,9 +173,7 @@
 
     * loadimpact.com:
         * Load zone: Tokyo
-            * min: 2.09 s 
-            * avg: 2.12 s
-            * max: 2.37 s
+        
 
     * gtmetrix.com
         * PageSpeed score: 95 %
