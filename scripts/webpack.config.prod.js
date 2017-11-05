@@ -66,7 +66,7 @@ module.exports = {
   // In production, we only want to load the polyfills and the app code.
   entry: [require.resolve('react-scripts/config/polyfills'), paths.appIndexJs],
   output: {
-    /*     libraryTarget: 'umd', */
+    libraryTarget: 'umd',
     // The build folder.
     path: paths.appBuild,
     // Generated JS file names (with nested folders).
@@ -121,7 +121,7 @@ module.exports = {
       new ModuleScopePlugin(paths.appSrc, [paths.appPackageJson]),
     ],
   },
-  /* externals: {
+  externals: {
     react: {
       root: 'React',
       commonjs2: 'react',
@@ -134,7 +134,7 @@ module.exports = {
       commonjs: 'react-dom',
       amd: 'react-dom'
     }
-  }, */
+  },
   module: {
     strictExportPresence: true,
     rules: [
