@@ -123,10 +123,6 @@
             * min: 2.09 s 
             * avg: 2.12 s
             * max: 2.37 s
-        * Load zone: Sydney
-            * min: 2.48 s 
-            * avg: 2.49 s
-            * max: 2.69 s
 
     * gtmetrix.com
         * PageSpeed score: 95 %
