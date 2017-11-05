@@ -90,7 +90,7 @@
             * Load time: 1.30 s
             * Faster than: 84 %
         * San Jose #1:
-            * Load time: 767 s
+            * Load time: 767 ms
             * Faster than: 93 %
         * San Jose #2:
             * Load time: 745 ms
@@ -143,7 +143,7 @@
             * Load time: 1.45 s
             * Faster than: 81 %
         * San Jose #1:
-            * Load time: 978 s
+            * Load time: 978 ms
             * Faster than: 89 %
         * San Jose #2:
             * Load time: 879 ms
@@ -160,3 +160,56 @@
         * Melbourne #3:
             * Load time: 3.07 s
             * Faster than: 52 %
+
+4. CDN both react and ace library:
+
+    * general info:
+        * page size: 220 kB
+        * requests: 14-15
+
+    * google pagespeed:
+        * mobile rating: 65/100
+        * desktop rating: 86/100
+
+    * loadimpact.com:
+        * Load zone: Tokyo
+            * min: 2.09 s 
+            * avg: 2.12 s
+            * max: 2.37 s
+
+    * gtmetrix.com
+        * PageSpeed score: 95 %
+        * YSlow score: 91 %
+        * Test #1 load time: 0.9 s
+        * Test #2 load time: 1.0 s
+        * Test #3 load time: 0.9 s
+
+    * pingdom.com:
+        * Performance grade: A (96)
+        * Stockholm #1:
+            * Load time: 1.03 s
+            * Faster than: 89 %
+        * Stockholm #2:
+            * Load time: 1.01 s
+            * Faster than: 89 %
+        * Stockholm #3:
+            * Load time: 974 ms
+            * Faster than: 90 %
+        * San Jose #1:
+            * Load time: 638 ms
+            * Faster than: 95 %
+        * San Jose #2:
+            * Load time: 616 ms
+            * Faster than: 95 %
+        * San Jose #3:
+            * Load time: 656 ms
+            * Faster than: 95 %
+        * Melbourne #1:
+            * Load time: 1.97 s
+            * Faster than: 71 %
+        * Melbourne #2:
+            * Load time: 1.95 s
+            * Faster than: 71 %
+        * Melbourne #3:
+            * Load time: 2.03 s
+            * Faster than: 70 %
