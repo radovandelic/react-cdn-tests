@@ -49,4 +49,6 @@ output: {
     // ...
 ```
 
-3. That's it. You can now run `npm start` or `npm run build`, and your app should work the same as before, but faster.
+3. That's it. You can now run `npm start` or `npm run build` and your app should work the same as before, but faster.
+
+###### Credits to [@larrybotha](https://github.com/larrybotha), [@download](https://github.com/download) and [@jaredreich](https://github.com/jaredreich) @[github/issues](https://github.com/webpack/webpack/issues/1275) for finding the solution for excluding react from webpack.
