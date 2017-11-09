@@ -173,8 +173,14 @@
 
     * loadimpact.com:
         * Load zone: Tokyo
+            * min: 1.39 s
+            * avg: 1.4 s
+            * max: 1.5 s
+        * Load zone: Sydney
+            * min: 1.65 s
+            * avg: 1.66 s
+            * max: 1.9 s
         
-
     * gtmetrix.com
         * PageSpeed score: 95 %
         * YSlow score: 91 %
