@@ -10,7 +10,7 @@ This is an experiment to test the performance of different react setups.
     4. CDN both react and ace library: 153/93/121
         * Load time (weighted avg): 1.22 s
 
-###### The full report can be found in reports.md
+###### The full report can be found in [reports.md](https://github.com/radovandelic/react-cdn-tests/blob/master/reports.md)
 
 ### Conclusion:
 The tests show that using a CDN to host react and other libraries rather than using webpack to bundle them all together along with your own source code reduces average load time by ~35% for the sample application. The performance gains should be significantly higher in a real world environment where browsers take advantage of browser caching to save frequently accessed resources such as javascript libraries hosted on a public CDN.
